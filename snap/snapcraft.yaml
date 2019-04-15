@@ -1,0 +1,10 @@
+name: armory
+version: 
+summary: 
+description: |
+  
+confinement: strict
+grade: devel
+
+apps:
+  armory:
