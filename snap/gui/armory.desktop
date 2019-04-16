@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=armory
+GenericName=armory 3D game engine
+Comment=A 3D game engine in Blender.
+Exec=armory-p
+Icon=${SNAP}/meta/gui/armory.png
+Terminal=false
+Type=Application
+Categories=Development;IDE;
