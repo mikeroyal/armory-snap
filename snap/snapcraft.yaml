@@ -1,10 +1,25 @@
 name: armory
-version: 
-summary: 
-description: |
-  
-confinement: strict
-grade: devel
+version: git
+summary: Armory 3D.
+description: | A 3D Game Engine for Blender. 
+ 
+grade: devmode
+base: core18
 
-apps:
+architectures:  
+  - build-on: amd64
+
+parts:
   armory:
+    source: https://github.com/armory3d/armory.git
+    source-tag: 19.05
+    plugin: python
+    python-version: python3
+    build-packages:
+      - build-essential
+      - software-properties-common
+      - zlib1g-dev
+      - libzmq3-dev
+      - libhdf5-serial-dev
+      - libfreetype6-dev 
+      - libcurl3-dev
