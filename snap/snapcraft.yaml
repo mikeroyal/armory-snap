@@ -15,6 +15,7 @@ parts:
     source-tag: 19.05
     plugin: python
     python-version: python3
+    
     build-packages:
       - build-essential
       - software-properties-common
@@ -23,3 +24,27 @@ parts:
       - libhdf5-serial-dev
       - libfreetype6-dev 
       - libcurl3-dev
+      
+    stage-packages:
+      - libgl1-mesa-dri
+      - libglu1-mesa
+      - libgl1-mesa-glx
+      - libgles2-mesa
+      - opengl
+      - libflac8
+      - libxcursor1
+      - libxi6
+      - libxinerama1
+      - libxrandr2
+      - libxrender1
+      - libasound2
+      - libasyncns0
+      - libogg0
+      - libpulse0
+      - libsndfile1
+      - libtheora0
+      - libvorbis0a
+      - libvorbisenc2
+      - libvorbisfile3
+      - libwebp5
+      
